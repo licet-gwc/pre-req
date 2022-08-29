@@ -57,18 +57,24 @@ Install Apache Maven 3.8.6 and setup the `MAVEN_HOME` environment variable in sy
 ## 4. Spring Tool Suite
 ### 4.1. Installation
 1. Goto the website [https://spring.io/tools](https://spring.io/tools)
-2. Select the software based on the OS version and download it to the location - `c:\software\sts`
-3. Double click this file to begin installation
-   - In the installation window, change the installation directory if required or keep the default one
-   - Accept the terms and conditions, license agreement and wait for the installation to complete
-   - After installation is completed, click on `Launch` button to get into the Spring Tool Suite software.
-   - When asked to create a workspace, create a new directory `c:\mywork\java` and provide this path as workspace. Select the checkbox - `Use this as default and do not ask again` before submit.
+2. Select the software based on the OS version and download the `.jar` file to the location - `c:\software\sts`
+   Sample filename  -`spring-tool-suite-4-4.15.3.RELEASE-e4.24.0-win32.win32.x86_64.self-extracting.jar`
+4. Double click this file to begin extraction (if not extracting then goto `step 4`)
+5. In command line goto the path - `c:\software\sts` and execute the command `java -jar <jar filename>`. 
+   This will start the extraction and a progress bar will appear to show the progress.
+6. Once the extraction is completed, the folder `sts-{4.x.x}.RELEASE` appears in this location.
+   - Go into this folder and double click `SpringToolSuite4.exe` to start the STS editor.
+   - When asked to create a workspace, create a new directory `c:\mywork\sts_workspace` and provide this path as workspace path. 
+   - Select the checkbox - `Use this as default and do not ask again`.
    - Click `Launch` to complete the installation, and STS will open now.
 
 ### 4.2. Configuration
 4. Goto `Windows menu -> Preferences -> Java`
 5. Click on `Compiler`, set the `Compiler Compliance Level = 11`
 6. Click on `Installed JRE`, verify if the JRE is available by default
-7. Apply and Close to complete the configuration
+7. Click on `Maven -> Installations`, click on the `Add` button
+   - `Installation home: ` - Select the Maven home path and clink on `Finish` button
+8. Select the checkbox for the `apache-maven-{3.x.x}` in the Installations list
+9. Apply and Close to complete the configuration
 
 
