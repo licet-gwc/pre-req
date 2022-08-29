@@ -50,7 +50,7 @@ Install Apache Maven 3.8.6 and setup the `MAVEN_HOME` environment variable in sy
 6. Save and exit the system variables windows
 
 ### 3.3. Verify Installation
-6. Open a new command line window and execute the command `mvn --version` to check the Maven version installed
+7. Open a new command line window and execute the command `mvn --version` to check the Maven version installed
 
 
 
@@ -70,8 +70,5 @@ Install Apache Maven 3.8.6 and setup the `MAVEN_HOME` environment variable in sy
 5. Click on `Compiler`, set the `Compiler Compliance Level = 11`
 6. Click on `Installed JRE`, verify if the JRE is available by default
 7. Apply and Close to complete the configuration
-
-
-
 
 
