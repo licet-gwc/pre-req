@@ -1,11 +1,11 @@
-User 1:     @ 9AM IST
+User 1:   creates a new file @ 9AM IST
 {
   A() {}
   B() {}
 }
 
 
-User 2:     @ 10AM IST
+User 2:   updates the file after User 1 has changed  @ 10AM IST
 {
   A() {}
   B() {}
